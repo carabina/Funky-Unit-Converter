@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CCViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *numberOfBillsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *numberOfBillsTextField;
+- (IBAction)convertUnits:(UIButton *)sender;
 
 @end
